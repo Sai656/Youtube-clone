@@ -1,0 +1,47 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    font-size:large;
+}
+.large-container{
+    background-color: rgb(255, 255, 255);
+    padding-left: 7%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+.card p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    margin: 5px 0;
+}
+.card h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+@media (max-width: 900px){
+    .container{
+        padding-left: 5%;
+    }
+    .large-container{
+        padding-left: 5%;
+    }
+}
+

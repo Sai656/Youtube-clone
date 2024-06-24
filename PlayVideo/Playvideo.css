@@ -1,0 +1,122 @@
+.play-video{
+    flex-basis: 69%;
+    font-family: Roboto;
+    font-size:small;
+}
+.play-video iframe{
+    width: 100%;
+    height: 37vw;
+}
+.publisher{
+    display: flex;
+    align-items: center;
+    align-content: space-between;  
+}
+.play-video h3{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.jack{
+    border-radius: 50%;
+    width: 40px;
+}
+.play-video-info{
+    width: 100%;
+    padding-left: 20px;
+    backdrop-filter: blur(10px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.info{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info p{
+    font-size:20px;
+    font-weight: 600;
+}
+.likes{
+    display: flex;
+    border-radius: 35px;
+    margin-left: 90px;
+    margin-right: 10px;
+    height: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.likes img{
+    
+    background-color: aliceblue;
+    width: 30px;
+    border-radius: 30%;
+    margin: 10px;
+}
+button{
+    width: 170px;
+    height: 32px;
+    background-color: rgb(230, 15, 15);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic;
+    font-size: 15px;
+}
+.comment{
+    display: flex;
+}
+.comment img{
+    margin: 20px;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+}
+.vid-description{
+    background-color: rgb(197, 189, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:small;
+}
+.comment h3{
+    font-size: 17px;
+}
+.comment-action{
+    display: flex;
+    align-items: center;
+}
+.comment-action img{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+@media (max-width: 900px){
+    .play-video {
+        flex-basis: 100%;
+        height: 50vw;
+    }
+    .play-video iframe{
+        height: 50vw;
+        width: 100%
+    }
+    .vid-description{
+        padding-left: 0;
+    }
+    .play-video .play-video-info span{
+        margin-left:0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}
+
+
